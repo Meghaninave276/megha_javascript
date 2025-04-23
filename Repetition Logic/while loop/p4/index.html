@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // wap to print leap years from startyear to endyear.
+      let startyear = parseInt(prompt("enter startyear"));
+      let endyear = parseInt(prompt("enter endyear"));
+      while (startyear <= endyear) {
+        if (startyear % 4 == 0) {
+          console.log(startyear);
+        }
+        startyear+= 4;
+      }
+    </script>
+  </body>
+</html>
