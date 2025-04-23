@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // wap to fid max number from 5      " " " "  using nested if else.
+      let a = parseInt(prompt("enter a:"));
+      let b = parseInt(prompt("enter b:"));
+      let c = parseInt(prompt("enter c:"));
+      let d = parseInt(prompt("enter d:"));
+      let e = parseInt(prompt("enter e:"));
+      //a,b,c,d,e
+      if (a > b) {
+        //b
+        if (a > c) {
+          //c
+          if (a > d) {
+            //d
+            if (a > e) {
+              console.log("a is max");
+            } else {
+              console.log("e is max");
+            }
+          } else {
+            if (c > d) {
+              console.log("c is max");
+            } else {
+              console.log("d is max");
+            }
+          }
+        } else {
+          if (d > e) {
+            console.log("d is max");
+          } else {
+            console.log("e is max");
+          }
+        }
+      }
+      //b,c,d,e
+      else {
+        if (b > c) {
+          if (b > d) {
+            if (b > e) {
+              console.log("b is max");
+            } else {
+              console.log("e is max");
+            }
+          } else {
+            if (d > e) {
+              console.log("d is max");
+            } else {
+              console.log("e is max");
+            }
+          }
+        }
+        //c,d,e
+        else {
+          if (c > d) {
+            if (c > e) {
+              console.log("c is max");
+            } else {
+              console.log("e is max");
+            }
+          } else {
+            if (d > e) {
+              console.log("d is max");
+            } else {
+              console.log("e is max");
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
