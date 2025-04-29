@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1=parseInt(prompt("enter a num1"));
+        let num2=parseInt(prompt("enter a num2"));
+        let ans;
+        
+        let choice=prompt("enter your choice");
+        function addition(num1,num2)
+        {
+            ans=num1+num2;
+            document.writeln(ans);
+
+        }
+        function subtraction(num1,num2)
+        {
+            ans=num1-num2;
+            document.writeln(ans);
+
+        }
+        function multiplication(num1,num2)
+        {
+            ans=num1*num2;
+            document.writeln(ans);
+
+        }
+        function divison(num1,num2)
+        {
+            ans=num1/num2;
+            document.writeln(ans);
+
+        }
+
+        switch(choice)
+
+        {
+            case  "+":
+            addition(num1,num2);
+            break;
+            case  "-":
+            subtraction(num1,num2);
+            break;
+            case  "*":
+            multiplication(num1,num2);
+            break;
+            case  "/":
+            divison(num1,num2);
+            break;
+
+
+
+
+
+        }
+    </script>
+</body>
+</html>
