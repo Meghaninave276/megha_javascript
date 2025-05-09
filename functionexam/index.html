@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //WAP TO FIND FACTORIAL USING RECURSION.
+        // function factorial(n)
+        // {
+        //     if(n==1)
+        // {
+        //     return 1;
+
+        // }
+        //     return n*factorial(n-1);
+
+
+        // }
+        // document.writeln(factorial(7));
+       //WAP TO CHECK WHETHER A NUMBER IS A PALINDROME OR NOT USING A FUNCTION.
+       function PALINDROME(n)
+       {
+        let real=n;
+        let p=0;
+        while(n>0)
+       {
+        let m=n%10;
+        p=(p*10)+m;
+        n=Math.floor(n/10);
+
+       }
+       if(real==p)
+       {
+        document.writeln("num is palindrome");
+       }
+       else
+       {
+        document.writeln("num is not palindrome");
+
+       }
+
+
+       }
+       PALINDROME(121);
+    </script>
+    
+</body>
+
+
+</script>
+</html>
