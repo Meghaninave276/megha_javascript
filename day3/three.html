@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[1,2,3,4,5,7,1,2,3,4,2,5,6,7];
+   for(let i=0; i<a.length; i++)
+   {
+    let count=1;
+    for(let j=i+1; j<a.length; j++)
+   {
+    if(a[i]==a[j])
+   {
+    count++;
+    a.splice(j, 1);
+    j--
+
+   }
+
+
+   }
+   document.writeln(a[i]+":" +count+"<br>");
+   }
+  
+ </script>
+</body>
+</html>

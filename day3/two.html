@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[2,5,2,4,6,4,5,5,6,7,7,8,9,10,11,13,12];
+        
+        for(let i=0; i<a.length; i++)
+    {
+        isfirst=false;
+        for(let j=i+1; j<a.length; j++)
+    {
+        if(a[i]==a[j] )
+    {
+            
+        a.splice(j, 2);
+         
+       
+       
+        // isfirst=true;
+        
+
+    }
+   
+    }
+
+   
+    }
+    document.writeln(a);
+
+
+   
+  
+   
+    </script>
+</body>
+</html>
