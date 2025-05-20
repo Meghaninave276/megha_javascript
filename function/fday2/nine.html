@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function palidrom(num)
+        {
+            let real=num;
+            let p=0;
+            while(num>0)
+        {
+            let m=num%10;
+            p=(p*10)+m;
+            num=Math.floor(num/10);
+
+        }
+        if(real==p)
+        {
+            document.writeln("num is palidrom");
+
+        }
+        else
+        {
+            document.writeln("num is not palidrom");
+
+        }
+
+        }
+        palidrom(123);
+    </script>
+</body>
+</html>
