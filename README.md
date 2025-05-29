@@ -1,3 +1,0 @@
- output:random color generate 
- 
- 
