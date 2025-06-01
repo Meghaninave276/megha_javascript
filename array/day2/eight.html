@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //asc without
+        let a = [8,6,95,45,32,9,85];
+        for(let i=0; i<a.length; i++)
+    {
+        for(let j=i+1; j<a.length; j++)
+    {
+        if(a[i]>a[j])
+    {
+        let temp = a[i];
+        a[i]=a[j];
+        a[j]=temp;
+
+    }
+     
+   
+
+    }
+    }
+    document.writeln(a);
+   
+    
+    </script>
+</body>
+</html>

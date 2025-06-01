@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=parseInt(prompt("enter a total num"));
+        let a=[];
+       
+        for(let i=0; i<=num-1; i++)
+    {
+       let input = parseInt(prompt("enter total of num"));
+        a.push(input);
+
+    }
+    document.writeln(a);
+    document.writeln("<br>");
+    let check=parseInt(prompt("find combination"));
+    for(let j=0; j<a.length; j++)
+    {
+        for(let k=0; k<a.length; k++)
+    {
+        if(a[j]+a[k]==check)
+    {
+        document.writeln([a[j],a[k],"&nbsp"]);
+
+    }
+
+    }
+    }
+    </script>
+    
+</body>
+</html>
