@@ -4,46 +4,51 @@ https://github.com/user-attachments/assets/c8e41113-4ef5-4b9c-bd94-aed47ff209cf
 
 
 
-Description:
+# Description:
 
-This project demonstrates a responsive and interactive web page created using HTML, CSS, Bootstrap, and JavaScript. The video showcases the layout, design, and key functionalities implemented in the project.
-🧱 HTML – Structure of the webpage
+#### This project demonstrates a responsive and interactive web page created using HTML, CSS, Bootstrap, and JavaScript. The video showcases the layout, design, and key functionalities implemented in the project.
 
-🎨 CSS – Styling and layout design
+### 🧱 HTML – Structure of the webpage
 
-🅱️ Bootstrap – Responsive framework for modern UI
+### 🎨 CSS – Styling and layout design
 
-⚙️ JavaScript – Dynamic interactions and functionality
+### 🅱️ Bootstrap – Responsive framework for modern UI
 
-📹 Video Preview
-Filename: two.mp4
-This demo video walks you through the design and features of the project.
+### ⚙️ JavaScript – Dynamic interactions and functionality
+---
+# 📹 Video Preview
 
-✨ Features Demonstrated
-📐 Responsive layout using Bootstrap Grid
+### Filename: two.mp4
 
-🔘 Interactive buttons and UI components
+#### This demo video walks you through the design and features of the project.
 
-💡 JavaScript functionality like dynamic content or form validation
+# ✨ Features Demonstrated
+### 📐 Responsive layout using Bootstrap Grid
 
-🎭 Stylish animations and effects with CSS
+### 🔘 Interactive buttons and UI components
 
-📱 Mobile-friendly and modern design
+### 💡 JavaScript functionality like dynamic content or form validation
 
-🚀 Getting Started
-To run the project locally:
+### 🎭 Stylish animations and effects with CSS
 
-📁 Clone or download the project files
+### 📱 Mobile-friendly and modern design
 
-🌐 Open index.html in any modern browser
+# 🚀 Getting Started
 
-✅ Make sure CSS and JS files are correctly linked
+#### To run the project locally:
 
-📸 Screenshots
-(Add screenshots here if you want to give a visual preview)
+### 📁 Clone or download the project files
 
-📄 License
-🆓 Free to use under the MIT License
+### 🌐 Open index.html in any modern browser
+
+### ✅ Make sure CSS and JS files are correctly linked
+
+### 📸 Screenshots
+
+#### (Add screenshots here if you want to give a visual preview)
+
+### 📄 License
+ ### 🆓 Free to use under the MIT License
 
 
 
