@@ -1,12 +1,12 @@
 # Description:=
 
-## 💬 Quote Generator Web App
+## 💬 note maker Generator Web App
 
-#### This project is a Quote Generator built using HTML and JavaScript. It allows users to display motivational and inspirational quotes at the click of a button.
+#### This project is a note maker Generator built using HTML and JavaScript. It allows users to display motivational and inspirational quotes at the click of a button.
 
 ## 📽️ Video Demo
 
-#### This video demonstrates the working of the project, showing how quotes are dynamically displayed when the button is clicked.
+#### This video demonstrates the working of the project, showing how note maker are dynamically displayed when the button is clicked.
 
 ## 🔧 Technologies Used
 
@@ -16,7 +16,7 @@
 
 ## ✨ Features
 
-#### Displays a quote with the author name
+#### Displays a note maker with the author name
 
 #### Button to load the next quote
 
@@ -28,7 +28,7 @@
 
 #### Open the index.html file in a browser
 
-#### Click the Next button to display new quotes
+#### Click the Next button to display new text
 
 #### Let me know if you want a version with emojis, GitHub formatting, or deployment steps.
 
