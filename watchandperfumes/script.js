@@ -3,127 +3,148 @@ const productlist = [
       "title": "Rolex Submariner",
       "image": "https://i.pinimg.com/736x/bf/fb/6e/bffb6e02c41ec1948e2cdeb1699cb41e.jpg",
       "description": "Luxury diving watch with iconic black bezel and automatic movement.",
-      "price": 9500
+      "price": 9500,
+      qty:1
     },
     {
       "title": "Omega Seamaster",
       "image": "https://i.pinimg.com/736x/a0/0d/d7/a00dd7242886ccd068abc9ccf213a561.jpg",
       "description": "Swiss-made diving watch with chronometer certification.",
-      "price": 4800
+      "price": 4800,
+      qty: 1
     },
     {
       "title": "Casio G-Shock GA-2100",
       "image": "https://i.pinimg.com/736x/31/44/e2/3144e2c152953306c2e8703669462da7.jpg",
       "description": "Rugged digital-analog watch with carbon core guard.",
-      "price": 120
+      "price": 120,
+      qty: 1
     },
     {
       "title": "Fossil Grant ",
       "image": "https://i.pinimg.com/736x/d4/9b/60/d49b601eeec2734bc2a58309c8be6e8b.jpg",
       "description": "Leather strap watch with Roman numeral dial and subdials.",
-      "price": 135
+      "price": 135,
+      qty: 1
     },
     {
       "title": "Apple Watch Series 9",
       "image": "https://i.pinimg.com/736x/64/f6/d7/64f6d73f4630a4aa5df64bcd48001379.jpg",
       "description": "Smartwatch with GPS, fitness tracking, and Retina display.",
-      "price": 399
+      "price": 399,
+      qty: 1
     },
     {
       "title": "Tag Heuer Carrera",
       "image": "https://i.pinimg.com/736x/19/a4/78/19a47849338cb53c618d84d7db096ef0.jpg",
       "description": "Elegant sports chronograph for racing enthusiasts.",
-      "price": 3200
+      "price": 3200,
+      qty: 1
     },
     {
       "title": "Seiko 5 Sports",
       "image": "https://i.pinimg.com/736x/a3/26/b7/a326b77bb819a331dbe8fe7c2fc9ae54.jpg",
       "description": "Automatic mechanical watch with classic stainless steel design.",
-      "price": 220
+      "price": 220,
+      qty: 1
     },
     {
       "title": "Tissot Gentleman",
       "image": "https://i.pinimg.com/736x/03/82/31/038231633c6e5126622513fbdd749f92.jpg",
       "description": "Swiss elegance with Powermatic 80 movement.",
-      "price": 700
+      "price": 700,
+      qty: 1
     },
     {
       "title": "Garmin Forerunner 255",
       "image": "https://i.pinimg.com/736x/f3/3a/26/f33a2691d8627e7f67a44793fb93b738.jpg",
       "description": "GPS running smartwatch with heart-rate tracking.",
-      "price": 350
+      "price": 350,
+      qty: 1
     },
     {
       "title": "Daniel Wellington ",
       "image": "https://i.pinimg.com/736x/37/0d/ea/370dea1058ddc654c491425f3bf898a6.jpg",
       "description": "Minimalist design with a thin case and black dial.",
-      "price": 179
+      "price": 179,
+      qty: 1
     },
      {
     "title": "Citizen Eco-Drive",
     "image": "https://i.pinimg.com/736x/0d/d8/bf/0dd8bfa2f991f8a498103c37c037c6f8.jpg",
     "description": "Solar-powered watch with perpetual calendar.",
-    "price": 275
+    "price": 275,
+       qty: 1
   },
     {
       "title": "Chanel No. 5",
       "image": "https://i.pinimg.com/736x/99/fb/f8/99fbf8f68992143b1dad28f92c3d7cad.jpg",
       "description": "Timeless floral fragrance for women with a powdery finish.",
-      "price": 120
+      "price": 120,
+      qty: 1
     },
     {
       "title": "Dior Sauvage",
       "image": "https://i.pinimg.com/736x/92/df/c2/92dfc2d97e3533295cd516fc2fdd6aaa.jpg",
       "description": "Fresh and bold masculine scent with bergamot and amberwood.",
-      "price": 99
+      "price": 99,
+      qty: 1
     },
     {
       "title": "Versace Eros",
       "image": "https://i.pinimg.com/736x/5a/2c/ea/5a2cea57e213280d06d56c8dc854b647.jpg",
       "description": "Seductive perfume with mint, lemon zest, and tonka bean.",
-      "price": 85
+      "price": 85,
+      qty: 1
     },
     {
       "title": "Gucci Bloom",
       "image": "https://i.pinimg.com/736x/00/49/f5/0049f51d5eef61581e7f7de2a423e6b1.jpg",
       "description": "Floral fragrance with jasmine and tuberose notes.",
-      "price": 110
+      "price": 110,
+      qty: 1
     },
     {
       "title": "Tom Ford Black Orchid",
       "image": "https://i.pinimg.com/736x/0e/bd/af/0ebdafd3fc336526643a831816008322.jpg",
       "description": "Luxury fragrance with rich dark accords and spices.",
-      "price": 135
+      "price": 135,
+      qty: 1
     },
     {
       "title": "Armani Acqua di Gio",
       "image": "https://i.pinimg.com/736x/10/67/23/106723081234ca659f49bee1dd24d5c5.jpg",
       "description": "Fresh aquatic scent for men with citrus and rosemary.",
-      "price": 95
+      "price": 95,
+      qty: 1
     },
     {
       "title": "Calvin Klein Euphoria",
       "image": "https://i.pinimg.com/736x/2b/67/ff/2b67ffce2dc94c72549b00191244f4f1.jpg",
       "description": "Exotic fruity floral fragrance for women.",
-      "price": 89
+      "price": 89,
+      qty: 1
     },
     {
       "title": "Burberry Her",
       "image": "https://i.pinimg.com/736x/9e/55/f2/9e55f2a0f6d16c440b925387d25cbbc0.jpg",
       "description": "Sweet and fruity scent with red berries and jasmine.",
-      "price": 105
+      "price": 105,
+      qty: 1
     },
     {
       "title": "Carolina Herrera 212",
       "image": "https://i.pinimg.com/736x/ab/43/95/ab4395e9f22e1cb32c3f3661c0112b51.jpg",
       "description": "Fresh woody fragrance with citrus and musk.",
-      "price": 79
+      "price": 79,
+      qty: 1
     },
     {
       "title": "Mont Blanc Legend",
       "image": "https://i.pinimg.com/736x/64/87/95/64879588951eb0a3daac89a8f76aa4c2.jpg",
       "description": "Aromatic scent with pineapple, bergamot, and sandalwood.",
-      "price": 88
+      "price": 88,
+      qty: 1
     }
   
   ];
@@ -135,7 +156,7 @@ const productlist = [
 
 
   const productbox=document.querySelector(".product-box");
-  let cartlist=[];
+  let cartlist=JSOn.parse(localStorage.getItem(cartlist));
 
 function productdisplay()
 {
@@ -243,7 +264,7 @@ productbox.appendChild(productive);
   p.textContent=carts.description;
   p.className="mt-3"
 const h5=document.createElement("h5");
-h5.textContent="$"+carts.price;
+h5.textContent="$"+carts.price+"qty: "+carts.qty;
   text.appendChild(h4);
   text.appendChild(p);
   text.appendChild(h5);
@@ -270,7 +291,7 @@ h5.textContent="$"+carts.price;
 
   
   })
-  subtotal.textContent="$"+total.toFixed(2);
+  subtotal.textContent="$"+(total*carts.qty).toFixed(2);
   taxvalue=total*(5/100);
   shippingvalue=2;
   shipping.textContent="$"+shippingvalue.toFixed(2);
@@ -292,8 +313,22 @@ h5.textContent="$"+carts.price;
 
   function addtocart(product)
   {
-    cartlist.push(product);
-    // localStorage.setItem("cart",JSON.stringify(cartlist));
+    let isproductcartexist=false;
+    cartlist.forEach((carts)=>{
+      if(product.title==carts.title)
+      {
+        carts.qty++;
+        isproductcartexist=true;
+
+      }
+    })
+    if (isproductcartexist ==false)
+    {
+      cartlist.push(product);
+
+    }
+   
+    localStorage.setItem("cart",JSON.stringify(cartlist));
     cartdisplay();
     
  
@@ -306,7 +341,7 @@ h5.textContent="$"+carts.price;
   function deletecart(index)
   {
     cartlist.splice(index,1);
-    //  localStorage.setItem("cart",JSON.stringify(cartlist));
+     localStorage.setItem("cart",JSON.stringify(cartlist));
     cartdisplay();
   }
   productdisplay();
