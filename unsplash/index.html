@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+  body {
+  background: #02132d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container input {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#add {
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+#add:hover {
+  background: #004085;
+}
+
+#card {
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: start;
+  gap: 20px;
+}
+
+#card img {
+  height: 200px;
+  width: 100%;
+  max-width: 220px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+
+}
+
+#card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+  </style>
+
+
+
+  </head>
+<body>
+
+    <div class="container d-flex gap-3 mt-3">
+         <input type="text" class="form-control w-75 mt-4" id="input" aria-describedby="basic-addon3">
+         <button class="btn btn-primary px-5 mt-4" id="add">Add</button>
+    </div>
+
+    <div class="container mt-5">
+        <div class="card" id="card" style="width: 100%; outline: none; border: none;">
+          <div id="box">
+
+          </div>
+
+
+ 
+ 
+</div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
