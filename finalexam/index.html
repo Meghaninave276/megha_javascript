@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <style>
+    
+    body {
+      background: linear-gradient(to right, #f9f9f9, #e0f7fa);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .search-container {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    #input {
+      border-radius: 30px;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #add {
+      border-radius: 30px;
+      padding: 12px 25px;
+      background-color: #ff6f61;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    #add:hover {
+      background-color: #e55445;
+    }
+
+    #main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 800px;
+      padding: 25px;
+      margin-bottom: 30px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .box img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .box h1 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .box .info {
+      font-size: 15px;
+      color: #666;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .box .ingredients,
+    .box .instructions {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #444;
+      padding: 0 10px;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .btn-group button {
+      border-radius: 20px;
+      padding: 6px 16px;
+    }
+
+    .btn-delete {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    .btn-edit {
+      background-color: #0d6efd;
+      color: white;
+    }
+    #main .box .buttons
+    {
+        margin-left:300px;
+    }
+  </style>
+
+
+
+</head>
+<body>
+    <div class="container d-flex mt-4">
+        <input type="text" class="form-control w-75 " id="input" aria-describedby="basic-addon3" placeholder="enter recipe title">
+        <button class="btn ms-3" id="add">Add</button>
+    </div>
+
+    <div class="container">
+        <div class="" id="main">
+            </div>
+
+          
+    </div>
+
+
+    
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
