@@ -6,38 +6,119 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-</head>
+  <style>
+    body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #254528, #2a4a2d, #122113);
+  filter: blur(0.2px);
+  font-family: "Poppins", sans-serif;
+}
+/* Glassmorphism Effect Card */
+.card {
+  width: 450px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 35px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #e4a2e2;
+}
+
+#login {
+  width: 100%;
+  height: 55px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: radial-gradient(circle at center, #4f8053, #2a4a2d, #1a2d1c);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+#login:hover {
+   background: radial-gradient(circle at center, #4f8053, #2a4a2d, #1a2d1c);
+  transform: translateY(-3px);
+}
+
+#output {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Smooth fade-in animation */
+.card {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+  </style>
+
+  </head>
 <body>
 <div class="container">
- <div class="card shadow-lg  position-absolute top-50 start-50 translate-middle px-5 py-3"  style="width:600px; border: 15px groove black;">
+ <div class="card shadow-lg  position-absolute top-50 start-50 translate-middle px-5 py-3"  >
  
   <div class="card-body">
 
-    <h1 class="text-center" style="color: #881c67; font-weight: bold;
-">Login Form</h1>
+    <h1 class="text-center" 
+>Login Form</h1>
     <div class="mb-3 mt-3">
     
-    <input type="email" class="fs-5" id="email" placeholder="enter your email" style="height: 60px; width: 445px; margin-left: 10px; border: 2px solid black;">
+    <input type="email" class="fs-5" id="email" placeholder="enter your email" >
      
      
    
   </div>
    <div class="mb-3 ">
    
-    <input type="password" class="fs-5" id="password" placeholder="enter your Password" style="height: 60px; width: 445px; margin-left: 10px; border: 2px solid black; ">
+    <input type="password" class="fs-5" id="password" placeholder="enter your Password" >
      
      
    
   </div>
    <div class="mb-3">
    
-    <p id="output"></p>
+    <p id="output">
+
+    </p>
      
      
    
   </div>
-  <button class="" id="login" style="height: 60px; width: 445px; border: 4px solid black; text-align: center; margin-left: 10px; color: white; font-size: 20px; background: linear-gradient(#ab5692, #513252
-);">Login</button>
+  <button class="" id="login" >Login</button>
   </div>
 </div>
     
