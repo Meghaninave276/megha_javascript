@@ -6,7 +6,8 @@ const output=document.getElementById("output");
 
 
 const emailr=/^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$/;
-const passwordr=/^((?=\S*?[A-Z])(?=\S*?[a-z])(?=\S*?[0-9]).{6,})\S$/;
+const passwordr = /^(?=\S*?[A-Z])(?=\S*?[a-z])(?=\S*?[0-9])\S{6,}$/;
+
 
 
 login.addEventListener('click',()=>{
