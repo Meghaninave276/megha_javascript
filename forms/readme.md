@@ -50,9 +50,9 @@
 
 #### script.js – JavaScript logic for validation (external or embedded)
 
-## 🖼️ Demo Screenshot or Video
+## 🖼️ Demo Video
 
-#### You can record a screen video of form behavior (as you did with your uploaded .mp4 file) to include here or on your GitHub.
+
 
 
 
