@@ -1,0 +1,129 @@
+/* ===== Global ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #7ee8df, #9ab7f5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Input Box ===== */
+#input-box {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+    display: flex;
+    gap: 10px;
+}
+
+/* Input */
+#input {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add Button */
+.btn-add {
+    background: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 18px;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+.btn-add:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+}
+
+/* ===== Output Box ===== */
+#output-box {
+    margin-top: 30px;
+    width: 450px;
+}
+
+/* ===== Todo Card ===== */
+#output-box > div {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 14px 18px;
+    border-radius: 14px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+    transition: all 0.25s ease;
+}
+
+#output-box > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.22);
+}
+
+/* Todo Text */
+#output-box p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+/* ===== Buttons ===== */
+.btn-red {
+    background: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.btn-red:hover {
+    background: #e11d48;
+    transform: scale(1.05);
+}
+
+.btn-green {
+    background: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    border: 1px solid black;
+}
+
+.btn-green:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#output-box > div {
+    animation: fadeIn 0.3s ease;
+}
