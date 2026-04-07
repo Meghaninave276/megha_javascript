@@ -1,57 +1,57 @@
 # 🌄 Unsplash Image Search Web App
 
-#### A simple and responsive web app that lets users search and view beautiful, high-quality images from the Unsplash API. Built using HTML, CSS (Bootstrap 5), and JavaScript (Fetch API), it displays a dynamic gallery of photos based on user input.
+##### A simple and responsive web app that lets users search and view beautiful, high-quality images from the Unsplash API. Built using HTML, CSS (Bootstrap 5), and JavaScript (Fetch API), it displays a dynamic gallery of photos based on user input.
 
 ## 🚀 Features
 
-### 🔍 Search for any keyword (e.g., "mountains", "flowers", "cats")
+##### 🔍 Search for any keyword (e.g., "mountains", "flowers", "cats")
 
-### 📸 Fetches up to 10 images per search from the Unsplash API
+##### 📸 Fetches up to 10 images per search from the Unsplash API
 
-### 🎨 Clean, modern UI with hover effects and image transitions
+##### 🎨 Clean, modern UI with hover effects and image transitions
 
-### 📱 Fully responsive and mobile-friendly
+##### 📱 Fully responsive and mobile-friendly
 
-### ⚡ Fast and lightweight — no frameworks required beyond Bootstrap
+##### ⚡ Fast and lightweight — no frameworks required beyond Bootstrap
 
 ## 🛠️ Technologies Used
 
-### HTML5
+##### HTML5
 
-### CSS3 with Bootstrap 5
+##### CSS3 with Bootstrap 5
 
-### JavaScript (Vanilla)
+##### JavaScript (Vanilla)
 
-### Unsplash API
+##### Unsplash API
 
 ## 📦 How to Use
 
-### Clone or download this repository.
+##### Clone or download this repository.
 
-### Open the index.html file in any browser.
+##### Open the index.html file in any browser.
 
-### Type a keyword into the input box and click the "Add" button.
+##### Type a keyword into the input box and click the "Add" button.
 
-### View up to 10 relevant images instantly.
+##### View up to 10 relevant images instantly.
 
 ## 🔐 API Key
 
-### This app uses a public demo access key from Unsplash. For production or larger-scale use:
+##### This app uses a public demo access key from Unsplash. For production or larger-scale use:
 
-### Visit Unsplash Developers to create your own API key.
+##### Visit Unsplash Developers to create your own API key.
 
-### Replace the existing client_id value in the JavaScript code with your own key:
+##### Replace the existing client_id value in the JavaScript code with your own key:
 
-### js
-### Copy
-### Edit
-### client_id=YOUR_ACCESS_KEY
+##### js
+##### Copy
+##### Edit
+##### client_id=YOUR_ACCESS_KEY
 
 ## 🧼 Optional Improvements
 
-### Add loading spinners or error messages
+##### Add loading spinners or error messages
 
-### Add pagination for more than 10 images
+##### Add pagination for more than 10 images
 
 ### Enable modal view on image click
 
